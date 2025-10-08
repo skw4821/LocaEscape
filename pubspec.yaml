@@ -1,0 +1,45 @@
+name: calender_project
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.7.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI 위젯
+  table_calendar: ^3.0.9
+  cupertino_icons: ^1.0.8
+
+  # 위치 서비스
+  geolocator: ^10.1.1
+  google_maps_place_picker_mb: ^3.1.2
+
+  # 알림
+  flutter_local_notifications: ^16.0.0
+
+  # 데이터 저장
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  mysql_client: ^0.0.27
+
+  # 상태 관리
+  provider: ^6.1.2
+
+  # 국제화
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.7
+
+flutter:
+  uses-material-design: true
